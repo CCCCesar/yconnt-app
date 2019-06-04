@@ -1,0 +1,26 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#1E0B3E !important;margin-top: -0.5% !important;">
+  <a class="navbar-brand text-dark" routerLink="/home"><img style="width: 100px;margin-left: 1rem !important;" src="../../../assets/logo.png" alt=""></a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <form class="form-inline my-2 my-lg-0">
+      <input style="width: 800px; margin-left: 4rem !important; margin-right: 7rem !important;" class=" mx-auto form-control mr-sm-5" type="search" placeholder="Search" aria-label="Search">
+      <a class="icon" routerLink="/login"> <img style="margin-right: 1.5rem !important;" src="../../../assets/usuario.png" alt=""></a>
+      <a class="icon" routerLink="/order"> <img style="margin-right: 1.5rem !important;" src="../../../assets/icon.png" alt=""></a>
+      <a class="icon" routerLink="/questions"> <img style="margin-right: 1.5rem !important;" src="../../../assets/bocadillo.png" alt=""></a>
+    </form>
+  </div>
+</nav>
+<nav aria-label="breadcrumb ">
+    <ol class="breadcrumb ">
+      <li class="breadcrumb-item ml-sm-5" routerLinkActive="active"><a [routerLink]="['/computer']">COMPUTADORAS/LAPTOPS</a></li>
+      <li class="breadcrumb-item ml-sm-5" routerLinkActive="active"><a class="ml-sm-5" [routerLink]="['/phone']">CELULARES/TABLETS</a></li>
+      <li class="breadcrumb-item ml-sm-5"><a class="ml-sm-5" [routerLink]="['/consoles']">CONSOLAS</a></li>
+      <li class="breadcrumb-item ml-sm-5"><a class="ml-sm-5" [routerLink]="['/props']">ACCESORIOS</a></li>
+      <li class="breadcrumb-item ml-sm-5"><a class="ml-sm-5" [routerLink]="['/audiovideo']">AUIDIO Y VIDEO</a></li>
+    </ol>
+  </nav>

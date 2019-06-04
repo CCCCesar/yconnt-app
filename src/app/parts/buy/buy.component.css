@@ -1,0 +1,15 @@
+img{
+    width: 220px;
+    height: 190px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+button{
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+    padding: 8%;
+}
+.col-6{
+    margin-top: 2rem;
+}
